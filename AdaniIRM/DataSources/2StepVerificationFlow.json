@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "6834088b-99ba-42b0-b70a-843761f8d5d4",
+    "Name": "2StepVerificationFlow",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "ab4805b1-1c6f-ee11-9ae7-000d3a824e1d"
+  }
+]

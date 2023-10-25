@@ -1,0 +1,25 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =Set(
+            ResetEmail,
+            LookUp(
+                'Reserve entities',
+                'Email Address' = Param("email")
+            ).'Email Address'
+        );
+    StartScreen: |-
+        =If(
+            IsBlank(Param("email")),
+            Home,
+            'Reset Email'
+        )
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

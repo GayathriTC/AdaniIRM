@@ -1,0 +1,124 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr748_userlogins",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr748_userlogin",
+    "MaxGetRowsCount": 500,
+    "Name": "Reserve entities",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr748_acno": "A/C no.",
+      "cr748_cancelledchequepi": "Cancelled Cheque Pic",
+      "cr748_cancelledchequepiid": "cr748_CancelledChequePiId",
+      "cr748_cinno": "CIN no.",
+      "cr748_city": "City",
+      "cr748_companyname": "Company Name",
+      "cr748_customertype": "Customer Type",
+      "cr748_deliveryaddress": "delivery Address",
+      "cr748_email": "Email  ",
+      "cr748_emailaddress": "Email Address",
+      "cr748_firstname": "FirstName",
+      "cr748_gstaddress": "GST Address",
+      "cr748_gstin": "GSTIN",
+      "cr748_ifsccode": "IFSC Code",
+      "cr748_industrytype": "Industry Type",
+      "cr748_lastname": "LastName",
+      "cr748_mobilenumber": "Mobile Number",
+      "cr748_name": "Name",
+      "cr748_officeaddress": "Office Address",
+      "cr748_panno": "PAN no.",
+      "cr748_password": "Password",
+      "cr748_paymentterms": "Payment Terms",
+      "cr748_postalpincode": "Postal Pin Code",
+      "cr748_preferredorigin": "Preferred Origin",
+      "cr748_preferredports": "Preferred Ports",
+      "cr748_preferredquality": "Preferred quality",
+      "cr748_state": "State",
+      "cr748_tinno": "TIN no.",
+      "cr748_typeofmaterial": "Type of Material",
+      "cr748_userlogin_AsyncOperations": "System Jobs",
+      "cr748_userlogin_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr748_userlogin_FileAttachments": "FileAttachments",
+      "cr748_userlogin_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr748_userlogin_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr748_userlogin_ProcessSession": "Process Sessions",
+      "cr748_userlogin_SyncErrors": "Sync Errors",
+      "cr748_userloginid": "UserLogin",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Reserve entities",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Reserve entities (Views)",
+    "Name": "_cr748_userlogin_views",
+    "RelatedEntityName": "Reserve entities",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "15904c99-7133-4bcc-9b74-41ff41f76744": "Active UserLogins",
+      "92b91743-b071-44e8-b34a-8ac3a4cbe5bf": "UserLogin Advanced Find View",
+      "92dd97ad-29b4-4b06-9638-4786cd954b22": "UserLogin Associated View",
+      "c5a3ed36-ae56-422a-b0cb-1614ec4d778c": "Inactive UserLogins",
+      "d939b68a-95f1-4047-9e66-92185a41f263": "UserLogin Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Reserve entities)",
+    "Name": "cr748_userlogin_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Reserve entities"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Reserve entities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Reserve entities)",
+    "Name": "cr748_userlogin_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Reserve entities"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Reserve entities",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "adani_customerpersonaldetails",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "adani_customerpersonaldetail",
+    "MaxGetRowsCount": 500,
+    "Name": "CustomerPersonalDetails",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "adani_attachment": "Attachment",
+      "adani_customeremail": "CustomerEmail",
+      "adani_customermobilephone": "CustomerMobilePhone",
+      "adani_customerpersonaldetail_AsyncOperations": "System Jobs",
+      "adani_customerpersonaldetail_BulkDeleteFailures": "Bulk Delete Failures",
+      "adani_customerpersonaldetail_DuplicateBaseRecord": "Duplicate Records (adani_customerpersonaldetail_DuplicateBaseRecord)",
+      "adani_customerpersonaldetail_DuplicateMatchingRecord": "Duplicate Records (adani_customerpersonaldetail_DuplicateMatchingRecord)",
+      "adani_customerpersonaldetail_FileAttachments": "FileAttachments",
+      "adani_customerpersonaldetail_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "adani_customerpersonaldetail_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "adani_customerpersonaldetail_ProcessSession": "Process Sessions",
+      "adani_customerpersonaldetail_SyncErrors": "Sync Errors",
+      "adani_customerpersonaldetailid": "CustomerPersonalDetail",
+      "adani_emailverificationtoken": "EmailVerificationToken",
+      "adani_firstname": "FirstName",
+      "adani_gstaddressline1": "GSTAddressLine1",
+      "adani_gstaddressline2": "GSTAddressLine2",
+      "adani_gstcity": "GSTCity",
+      "adani_gstin": "GSTIN",
+      "adani_gstpostalpincode": "GSTPostalPinCode",
+      "adani_id": "Id",
+      "adani_isdeleted": "IsDeleted",
+      "adani_isemailverified": "IsEmailVerified",
+      "adani_isfirsttimelogin": "IsFirstTimeLogin",
+      "adani_islegaldisclaimeraccepted": "IsLegalDisclaimerAccepted",
+      "adani_kycstepprogress": "KYCStepProgress",
+      "adani_kycvalidityenddate": "KYCValidityEndDate",
+      "adani_kycvaliditystartdate": "KYCValidityStartDate",
+      "adani_lastname": "LastName",
+      "adani_legalaccepteddatetime": "LegalAcceptedDateTime",
+      "adani_sapcustomercode": "SAPCustomerCode",
+      "adani_twofactorenabled": "TwoFactorEnabled",
+      "adani_UpdatedBy": "UpdatedBy",
+      "adani_updatedon": "UpdatedOn",
+      "adani_UserId": "UserId",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "new_companyname": "Company Name",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "CustomerPersonalDetails",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "CustomerPersonalDetails (Views)",
+    "Name": "_adani_customerpersonaldetail_views",
+    "RelatedEntityName": "CustomerPersonalDetails",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2b3e8b6d-6376-47ea-b73d-be47d8d8ca3a": "Active CustomerPersonalDetails",
+      "752acf46-f0d6-4bcd-954c-1d5be4ef0715": "CustomerPersonalDetail Associated View",
+      "7ee27c0b-0c3a-41fb-adcb-264b81690c1c": "Inactive CustomerPersonalDetails",
+      "bdc80072-2fe1-4011-9ea9-c8c380923053": "CustomerPersonalDetail Advanced Find View",
+      "d8590863-44e9-4090-9fda-fb266b9ee820": "CustomerPersonalDetail Lookup View"
+    }
+  },
+  {
+    "DisplayName": "IsDeleted (CustomerPersonalDetails)",
+    "Name": "adani_customerpersonaldetail_adani_isdeleted",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adani_isdeleted",
+        "OptionSetReferenceEntityName": "CustomerPersonalDetails"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adani_isdeleted",
+    "RelatedEntityName": "CustomerPersonalDetails",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsEmailVerified (CustomerPersonalDetails)",
+    "Name": "adani_customerpersonaldetail_adani_isemailverified",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adani_isemailverified",
+        "OptionSetReferenceEntityName": "CustomerPersonalDetails"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adani_isemailverified",
+    "RelatedEntityName": "CustomerPersonalDetails",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsFirstTimeLogin (CustomerPersonalDetails)",
+    "Name": "adani_customerpersonaldetail_adani_isfirsttimelogin",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adani_isfirsttimelogin",
+        "OptionSetReferenceEntityName": "CustomerPersonalDetails"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adani_isfirsttimelogin",
+    "RelatedEntityName": "CustomerPersonalDetails",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsLegalDisclaimerAccepted (CustomerPersonalDetails)",
+    "Name": "adani_customerpersonaldetail_adani_islegaldisclaimeraccepted",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adani_islegaldisclaimeraccepted",
+        "OptionSetReferenceEntityName": "CustomerPersonalDetails"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adani_islegaldisclaimeraccepted",
+    "RelatedEntityName": "CustomerPersonalDetails",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "TwoFactorEnabled (CustomerPersonalDetails)",
+    "Name": "adani_customerpersonaldetail_adani_twofactorenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adani_twofactorenabled",
+        "OptionSetReferenceEntityName": "CustomerPersonalDetails"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adani_twofactorenabled",
+    "RelatedEntityName": "CustomerPersonalDetails",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (CustomerPersonalDetails)",
+    "Name": "adani_customerpersonaldetail_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "CustomerPersonalDetails"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "CustomerPersonalDetails",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (CustomerPersonalDetails)",
+    "Name": "adani_customerpersonaldetail_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "CustomerPersonalDetails"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "CustomerPersonalDetails",
+    "Type": "OptionSetInfo"
+  }
+]
